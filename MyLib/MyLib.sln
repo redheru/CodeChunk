@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FileUtil", "FileUtil\FileUtil.vcproj", "{4C5DA5A8-A15C-4E51-847E-6F055D48E374}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "KlMath", "KlMath\KlMath.vcproj", "{5CEE455B-B11F-4993-84DB-07B603E123D6}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Util", "Util\Util.vcproj", "{8E90F614-7B96-406B-BD42-FBB8C29B1F96}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BVH", "BVH\BVH.vcproj", "{5C770247-FE73-44A8-8356-4FF743639406}"
+	ProjectSection(ProjectDependencies) = postProject
+		{5CEE455B-B11F-4993-84DB-07B603E123D6} = {5CEE455B-B11F-4993-84DB-07B603E123D6}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4C5DA5A8-A15C-4E51-847E-6F055D48E374}.Debug|Win32.ActiveCfg = Debug|Win32
+		{4C5DA5A8-A15C-4E51-847E-6F055D48E374}.Debug|Win32.Build.0 = Debug|Win32
+		{4C5DA5A8-A15C-4E51-847E-6F055D48E374}.Release|Win32.ActiveCfg = Release|Win32
+		{4C5DA5A8-A15C-4E51-847E-6F055D48E374}.Release|Win32.Build.0 = Release|Win32
+		{5CEE455B-B11F-4993-84DB-07B603E123D6}.Debug|Win32.ActiveCfg = Debug|Win32
+		{5CEE455B-B11F-4993-84DB-07B603E123D6}.Debug|Win32.Build.0 = Debug|Win32
+		{5CEE455B-B11F-4993-84DB-07B603E123D6}.Release|Win32.ActiveCfg = Release|Win32
+		{5CEE455B-B11F-4993-84DB-07B603E123D6}.Release|Win32.Build.0 = Release|Win32
+		{8E90F614-7B96-406B-BD42-FBB8C29B1F96}.Debug|Win32.ActiveCfg = Debug|Win32
+		{8E90F614-7B96-406B-BD42-FBB8C29B1F96}.Debug|Win32.Build.0 = Debug|Win32
+		{8E90F614-7B96-406B-BD42-FBB8C29B1F96}.Release|Win32.ActiveCfg = Release|Win32
+		{8E90F614-7B96-406B-BD42-FBB8C29B1F96}.Release|Win32.Build.0 = Release|Win32
+		{5C770247-FE73-44A8-8356-4FF743639406}.Debug|Win32.ActiveCfg = Debug|Win32
+		{5C770247-FE73-44A8-8356-4FF743639406}.Debug|Win32.Build.0 = Debug|Win32
+		{5C770247-FE73-44A8-8356-4FF743639406}.Release|Win32.ActiveCfg = Release|Win32
+		{5C770247-FE73-44A8-8356-4FF743639406}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

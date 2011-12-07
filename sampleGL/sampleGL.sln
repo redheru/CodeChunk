@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sampleGL", "sampleGL\sampleGL.vcproj", "{94AFB5D8-D8F0-4E58-81D0-2E0311B4992E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{94AFB5D8-D8F0-4E58-81D0-2E0311B4992E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{94AFB5D8-D8F0-4E58-81D0-2E0311B4992E}.Debug|Win32.Build.0 = Debug|Win32
+		{94AFB5D8-D8F0-4E58-81D0-2E0311B4992E}.Release|Win32.ActiveCfg = Release|Win32
+		{94AFB5D8-D8F0-4E58-81D0-2E0311B4992E}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

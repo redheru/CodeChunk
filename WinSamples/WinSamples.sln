@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EmptyProject", "EmptyProject\EmptyProject.vcproj", "{D3FC99AA-2A2E-435B-A3B2-0F452765ACD7}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BvhPlayerOnGLUT", "BvhPlayerOnGLUT\BvhPlayerOnGLUT.vcproj", "{2E0398B4-8E25-47DD-9836-4F55A8F5603C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MotionUtil", "MotionUtil\MotionUtil.vcproj", "{08DD0C29-5D90-45D2-BC20-7E31CBC00A0D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D3FC99AA-2A2E-435B-A3B2-0F452765ACD7}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D3FC99AA-2A2E-435B-A3B2-0F452765ACD7}.Debug|Win32.Build.0 = Debug|Win32
+		{D3FC99AA-2A2E-435B-A3B2-0F452765ACD7}.Release|Win32.ActiveCfg = Release|Win32
+		{D3FC99AA-2A2E-435B-A3B2-0F452765ACD7}.Release|Win32.Build.0 = Release|Win32
+		{2E0398B4-8E25-47DD-9836-4F55A8F5603C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{2E0398B4-8E25-47DD-9836-4F55A8F5603C}.Debug|Win32.Build.0 = Debug|Win32
+		{2E0398B4-8E25-47DD-9836-4F55A8F5603C}.Release|Win32.ActiveCfg = Release|Win32
+		{2E0398B4-8E25-47DD-9836-4F55A8F5603C}.Release|Win32.Build.0 = Release|Win32
+		{08DD0C29-5D90-45D2-BC20-7E31CBC00A0D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{08DD0C29-5D90-45D2-BC20-7E31CBC00A0D}.Debug|Win32.Build.0 = Debug|Win32
+		{08DD0C29-5D90-45D2-BC20-7E31CBC00A0D}.Release|Win32.ActiveCfg = Release|Win32
+		{08DD0C29-5D90-45D2-BC20-7E31CBC00A0D}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
